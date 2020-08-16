@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <script>
+        function buttonclick()
+        {
+         var rad1 = document.getElementById("rad1");
+         var rad2 = document.getElementById("rad2");
+
+         if (rad1.checked==true)
+         alert("Name is selected "+rad1.value);
+         else if (rad2.checked==true)
+         alert("title is selected "+rad2.value);
+         else
+         alert("Nothing selected");
+        }
+        </script>
+
+</head>
+    
+
+
+<body>
+
+ <input id="rad1" name="grp1" type="radio" value=""> Sandeep </input> <br>
+ <input id="rad2" name="grp1" type="radio" value=""> Chowdhury </input> <br>
+ <br><br>
+<button onclick="buttonclick()">click it</button>
+
+</body>
+
+</html>
