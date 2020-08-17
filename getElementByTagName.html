@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+ <p> This is first paragraph </p>
+ <p> This is Second paragraph </p>
+ <p> This is third paragraph </p>
+ <p> This is fourth paragraph </p>
+     <br><br>
+<button onclick="buttonclick()">click it</button>
+
+</body>
+
+<script>
+    function buttonclick()
+    {
+     var para=document.getElementsByTagName("p");
+     para[0].style.fontSize= 40;
+     para[1].style.color= "red";
+     para[2].style.fontWeight= "bold";
+     para[3].style.fontStyle= "italic";
+    }
+    </script>
+</html>
