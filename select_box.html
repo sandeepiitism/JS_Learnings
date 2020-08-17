@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    
+<select id="selectbox">
+    <option value="name"> Sandeep </option>
+    <option value="Title"> Chowdhury </option>
+    <option value="post"> Manager </option>
+</select>
+<br><br>
+    <button onclick="change()">Click</button>
+
+</body>
+
+<script>
+  function change()
+{
+    var select= document.getElementById("selectbox");
+    alert(select.options[select.selectedIndex].value)
+}
+</script>
+
+
+
+</html>
